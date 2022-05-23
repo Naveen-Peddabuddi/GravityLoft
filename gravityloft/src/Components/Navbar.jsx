@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import logo from '../Assets/Images/logo.png'
 const Container = styled.div`
-    width: 1920px;
+    width: 100%;
     height: 100px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
 `
 const Rightdiv = styled.div`
