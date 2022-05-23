@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './Components/Navbar';
+import Form from './Components/Form';
+import ExpertCloud from './Components/ExpertCloud';
+import Searchbox from './Components/Searchbox';
+import Consultbox from './Components/Consultbox';
+import FAQ from './Components/FAQ';
+import Footerbox from './Components/Footerbox';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar />
+     <Form />
+     <ExpertCloud />
+     {/* <Searchbox />
+     <Consultbox /> */}
+     <FAQ />
+    <Footerbox />
     </div>
   );
 }
