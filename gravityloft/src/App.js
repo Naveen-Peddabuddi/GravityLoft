@@ -9,7 +9,7 @@ import FAQ from './Components/FAQ';
 import Footerbox from './Components/Footerbox';
 function App() {
   return (
-    <div className="App">
+    <div>
      <Navbar />
      <Form />
      <ExpertCloud />
