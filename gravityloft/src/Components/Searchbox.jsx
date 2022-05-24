@@ -23,8 +23,8 @@ const Lefth1 = styled.h1`
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 4vh;
-  line-height: 54px;
+  font-size: 5vh;
+  line-height: 5vh;
   background: linear-gradient(92.84deg, #5746EC -34.59%, #F55656 93.19%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -83,7 +83,7 @@ const Leftpara = styled.p`
 const Rightdiv = styled.div`
   width: 45%;
   height: 100%;
-  background: rgba(87, 70, 236, 1);
+  background: #1c05ed;
   opacity: 0.6;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
   border-radius: 0px 12px 12px 0px;
@@ -101,6 +101,9 @@ const Leftgetstarted = styled.span`
   color: #5746EC;
   margin-left: 20px;
   display: flex;
+  &:hover{
+    cursor: pointer;
+  }
 `
 const Searchbox = () => {
   return (

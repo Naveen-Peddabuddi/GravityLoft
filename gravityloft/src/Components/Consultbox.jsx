@@ -36,8 +36,8 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 4vh;
-    line-height: 54px;
+    font-size: 5vh;
+    line-height: 5vh;
     background: linear-gradient(92.84deg, #5746EC -34.59%, #F55656 93.19%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -93,6 +93,9 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
     color: #5746EC;
     margin-left: 20px;
     display: flex;
+    &:hover{
+    cursor: pointer;
+  }
   `
 const Consultbox = () => {
   return (

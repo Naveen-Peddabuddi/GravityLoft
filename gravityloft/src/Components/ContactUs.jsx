@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 const Container = styled.div`
     width: 100%;
-    height: 40vh;
+    height: 47vh;
     margin: auto;
     border-radius: 20px;
     background-color: #5746ec;
@@ -98,7 +98,7 @@ const Conbutton = styled.button`
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   width: 60%;
-  height: 17%;
+  height: 18%;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -107,6 +107,9 @@ const Conbutton = styled.button`
   text-align: center;
   color: #5746EC;
   border: none;
+  &:hover{
+    cursor: pointer;
+  }
 `
 const Middiv = styled.div`
   width: 60%;
@@ -120,7 +123,7 @@ const ContactUs = () => {
     <Container >
       <Middiv className='App'>
         <Heading>
-            Contact us,If you <br />
+            Contact us, If you <br />
             are facing any problems
         </Heading>
         <Conpara>

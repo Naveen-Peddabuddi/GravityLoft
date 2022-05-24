@@ -43,6 +43,9 @@ const Login = styled.button`
   border: 1.5px solid #5746EC;
   border-radius: 7px;
   margin-right: 1.5%;
+  &:hover{
+    cursor: pointer;
+  }
 `
 const Register = styled.button`
   width: 130px;
@@ -56,6 +59,9 @@ const Register = styled.button`
   border-radius: 8px;
   border: 0px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  &:hover{
+    cursor: pointer;
+  }
 `
 const Navbar = () => {
   return (

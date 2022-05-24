@@ -16,7 +16,7 @@ const Leftdiv = styled.div`
 `
 const Rightdiv = styled.div`
   width: 50%;
-  height: 60%;
+  height: 65%;
   margin: auto;
   
 `
@@ -126,7 +126,7 @@ const Formbox = styled.div`
 `
 const Heading = styled.p`
   font-family: 'Work Sans';
-  font-size: 35px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: 50px;
@@ -154,14 +154,15 @@ const InputHeading = styled.p`
 const Input = styled.input`
   width: 90%;
   height: 10%;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   color: black;
   font-size: 18px;
   font-family: 'Work Sans';
   font-weight: 500;
-  padding-left: 20px;
+  margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  overflow: hidden;
 `
 const Getstarted = styled.button`
   width: 95%;
@@ -175,9 +176,12 @@ const Getstarted = styled.button`
   font-weight: 600;
   font-size: 18px;
   color: #FFFFFF;
-  margin-top: 5%;
+  margin-top: 20px;;
   border: none;
-
+  margin-left: 12px;
+  &:hover{
+    cursor: pointer;
+  }
 `
 const Form = () => {
   return (
