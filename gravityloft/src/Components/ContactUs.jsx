@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 const Container = styled.div`
     width: 100%;
-    height: 408px;
+    height: 40vh;
     margin: auto;
     border-radius: 20px;
     background-color: #5746ec;
@@ -12,11 +12,44 @@ const Heading = styled.p`
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
-  font-size: 60px;
-  line-height: 70px;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 30px;
+  @media screen and (max-width: 1378px) {
+  font-size: 45px;
+  line-height: 50px;
+}
+@media screen and (max-width: 1245px) {
+  font-size: 45px;
+  line-height: 50px;
+}
+@media screen and (max-width: 1115px) {
+  font-size: 40px;
+  line-height: 50px;
+}
+@media screen and (max-width: 995px) {
+  font-size: 35px;
+  line-height: 40px;
+}
+@media screen and (max-width: 870px) {
+  font-size: 30px;
+  line-height: 40px;
+}
+@media screen and (max-width: 750px) {
+  font-size: 25px;
+  line-height: 40px;
+}
+@media screen and (max-width: 635px) {
+  font-size: 20px;
+  line-height: 30px;
+}
+@media screen and (min-width: 1378px) {
+  font-size: 45px; 
+  line-height: 60px;
+}
+@media screen and (max-width: 440) {
+  font-size: 20px
+}
 `
 const Conpara = styled.p`
   font-family: 'Work Sans';
@@ -27,6 +60,38 @@ const Conpara = styled.p`
   text-align: center;
   letter-spacing: -0.02em;
   color: #FFFFFF;
+  @media screen and (max-width: 1378px) {
+  font-size: 17px;
+  line-height: 25px;
+}
+@media screen and (max-width: 1245px) {
+  font-size: 16px;
+  line-height: 23px;
+}
+@media screen and (max-width: 1115px) {
+  font-size: 15px;
+  line-height: 21px;
+}
+@media screen and (max-width: 995px) {
+  font-size: 14px;
+  line-height: 18px;
+}
+@media screen and (max-width: 870px) {
+  font-size: 13px;
+  line-height: 15px;
+}
+@media screen and (max-width: 750px) {
+  font-size: 12px;
+  line-height: 12px;
+}
+@media screen and (max-width: 635px) {
+  font-size: 11px;
+  line-height: 10px;
+}
+@media screen and (min-width: 1378px) {
+  font-size: 18px; 
+  line-height: 26px;
+}
 `
 const Conbutton = styled.button`
   background: #FFFFFF;
@@ -37,7 +102,7 @@ const Conbutton = styled.button`
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 2vh;
   line-height: 21px;
   text-align: center;
   color: #5746EC;

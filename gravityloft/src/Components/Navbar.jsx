@@ -4,7 +4,6 @@ import logo from '../Assets/Images/logo.png'
 const Container = styled.div`
     width: 100%;
     height: 100px;
-    /* border: 1px solid blue; */
     display: flex;
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
@@ -12,7 +11,6 @@ const Container = styled.div`
 const Rightdiv = styled.div`
   width: 50%;
   height: 50%;
-  /* border: 2px solid red; */
   display: flex;
   padding-left: 7%;
   margin: auto;
@@ -20,7 +18,6 @@ const Rightdiv = styled.div`
 const Leftdiv = styled.div`
   width: 50%;
   height: 50%;
-  /* border: 2px solid yellow; */
   display: flex;
   justify-content: flex-end;
   padding-right: 7%;

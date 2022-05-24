@@ -2,55 +2,76 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    width: 100%;
-    height: 801px;
-    /* border: 1px solid teal; */
+    width: 100vw;
+    height: 80vh;
     background-color: rgba(248, 248, 248, 1);
     display: flex;
     
 `
 const Leftdiv = styled.div`
-  width: 50%;
+  width: 60%;
   height: 40%;
-  /* border: 2px solid red; */
   margin: auto;
 
 `
 const Rightdiv = styled.div`
   width: 50%;
   height: 60%;
-  /* border: 2px solid blue; */
   margin: auto;
   
 `
 const LeftTop = styled.div`
   width: 85%;
   height: 75%;
-  /* border: 1px solid red; */
   margin-left: 11.5%;
 `
-const LeftBottom = styled.div`
-  width: 74%;
-  height: 19%;
-  /* border: 1px solid black; */
-  margin-left: 11.5%;
-`
-const LeftTopText = styled.p`
+
+const LeftTopText = styled.h3`
   font-family: 'Work Sans';
   font-weight: 600;
-  font-style: normal;
-  font-size: 64px;
-  line-height: 80px;
+  font-style: normal; 
   letter-spacing: -0.02em;
   color: black;
   text-align: left;
   margin-top: 5px;
+@media screen and (max-width: 1378px) {
+  font-size: 50px;
+  line-height: 60px;
+}
+@media screen and (max-width: 1245px) {
+  font-size: 45px;
+  line-height: 60px;
+}
+@media screen and (max-width: 1115px) {
+  font-size: 40px;
+  line-height: 50px;
+}
+@media screen and (max-width: 995px) {
+  font-size: 35px;
+  line-height: 40px;
+}
+@media screen and (max-width: 870px) {
+  font-size: 30px;
+  line-height: 40px;
+}
+@media screen and (max-width: 750px) {
+  font-size: 25px;
+  line-height: 40px;
+}
+@media screen and (max-width: 635px) {
+  font-size: 20px;
+  line-height: 30px;
+}
+@media screen and (min-width: 1378px) {
+  font-size: 55px; 
+  line-height: 80px;
+}
 `
 const Weare = styled.span`
   background: linear-gradient(92.84deg, #5746EC -34.59%, #F55656 93.19%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 `
 const LeftbottomText = styled.p`
   font-family: 'Work Sans';
@@ -58,13 +79,44 @@ const LeftbottomText = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  font-size: 22px;
+  font-size: 25px;
   text-align: left;
-  margin-top: 20px;
+  @media screen and (max-width: 1378px) {
+  font-size: 24px;
+  line-height: 38px;
+}
+@media screen and (max-width: 1245px) {
+  font-size: 22px;
+  line-height: 36px;
+}
+@media screen and (max-width: 1115px) {
+  font-size: 20px;
+  line-height: 36px;
+}
+@media screen and (max-width: 995px) {
+  font-size: 18px;
+  line-height: 34px;
+}
+@media screen and (max-width: 870px) {
+  font-size: 16px;
+  line-height: 32px;
+}
+@media screen and (max-width: 750px) {
+  font-size: 14px;
+  line-height: 30px;
+}
+@media screen and (max-width: 635px) {
+  font-size: 12px;
+  line-height: 28px;
+}
+@media screen and (min-width: 1378px) {
+  font-size: 25px; 
+  line-height: 40px;
+}
 `
 const Formbox = styled.div`
   width: 70%;
-  height: 98%;
+  height: 100%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: auto;
   background: rgba(255, 255, 255, 1);
@@ -80,6 +132,14 @@ const Heading = styled.p`
   line-height: 50px;
   text-align: center;
   color: #000000;
+  @media screen and (max-width: 1115px) {
+  font-size: 25px;
+  line-height: 28px;
+}
+@media screen and (max-width: 635px) {
+  font-size: 20px;
+  
+}
 `
 const InputHeading = styled.p`
   font-family: 'Work Sans';
@@ -114,10 +174,10 @@ const Getstarted = styled.button`
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 21px;
   color: #FFFFFF;
-  margin-top: 25px;
+  margin-top: 5%;
   border: none;
+
 `
 const Form = () => {
   return (
@@ -128,13 +188,11 @@ const Form = () => {
                <Weare>We are </Weare><br /> 
                 the best way to connect <br />
                 with Industry Experts
+                <LeftbottomText>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque nam animi unde beatae dolorem fuga! ?
+              </LeftbottomText>
               </LeftTopText>
             </LeftTop>
-            <LeftBottom>
-              <LeftbottomText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque nam animi unde beatae dolorem fuga! ?
-              </LeftbottomText>
-            </LeftBottom>
         </Leftdiv>
         <Rightdiv>
           <Formbox>

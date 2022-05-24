@@ -4,12 +4,10 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddSharpIcon from '@mui/icons-material/AddSharp';
 
 const Container = styled.div`
     width: 70%;
-    height: 701px;
     border: 1px solid green;
     margin: auto;
     background: rgba(255, 255, 255, 1);
@@ -18,7 +16,7 @@ const Container = styled.div`
     border-radius: 12px; 
     margin-bottom : 100px;
 `
-const Heading = styled.p`
+const Heading = styled.div`
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -29,7 +27,7 @@ const Heading = styled.p`
   color: #000000;
   margin-top: 5%;
 `
-const Ques = styled.p`
+const Ques = styled.span`
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -38,6 +36,14 @@ const Ques = styled.p`
   color: #000000;
 `
 const Para = styled.p`
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #5C5F62;
+`
+const Text = styled.span`
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
@@ -68,9 +74,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -88,9 +94,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -108,9 +114,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -128,9 +134,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -148,9 +154,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -168,9 +174,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -188,9 +194,9 @@ const FAQ = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Para>
+            <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Para>
+            </Text>
           </Typography>
         </AccordionDetails>
       </Accordion>
