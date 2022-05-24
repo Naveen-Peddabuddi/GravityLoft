@@ -5,11 +5,12 @@ import Searchbox from './Searchbox'
 import Collaborate from './Collaborate'
 const Container = styled.div`
     width: 70%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: auto;
-    /* display: grid;
+    display: grid;
     grid-template-rows: repeat(1fr, 3);
-    grid-gap: 50px; */
+    grid-gap: 50px;
+
 `
 
 const Heading = styled.h1`
@@ -22,6 +23,7 @@ const Heading = styled.h1`
   letter-spacing: -0.02em;
   color: #000000;
   margin-bottom: 0px;
+  
 `
 const Text = styled.p`
   font-family: 'DM Sans';
@@ -31,10 +33,11 @@ const Text = styled.p`
   line-height: 25px;
   text-align: center;
   color: #5C5F62;
+  margin-bottom: 5%
 `
 const ExpertCloud = () => {
   return (
-      <div style={{marginBottom: '50px'}}>
+      <div style={{marginTop: '5%'}}>
         <Heading>Expert Cloud</Heading>
         <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
     <Container>

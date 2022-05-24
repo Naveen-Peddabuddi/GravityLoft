@@ -6,14 +6,17 @@ const Container = styled.div`
     margin: auto;
     border-radius: 20px;
     background-color: #5746ec;
-`
-const Heading = styled.h1`
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 60px;
-    text-align: center;
     
+`
+const Heading = styled.p`
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
 `
 const Conpara = styled.p`
   font-family: 'Work Sans';
@@ -29,8 +32,8 @@ const Conbutton = styled.button`
   background: #FFFFFF;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  width: 30%;
-  height: 10%;
+  width: 60%;
+  height: 17%;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -40,9 +43,17 @@ const Conbutton = styled.button`
   color: #5746EC;
   border: none;
 `
+const Middiv = styled.div`
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid transparent;
+`
 const ContactUs = () => {
   return (
-    <Container className='App'>
+    <Container >
+      <Middiv className='App'>
         <Heading>
             Contact us,If you <br />
             are facing any problems
@@ -53,6 +64,7 @@ const ContactUs = () => {
         <Conbutton>
           Contact Now
         </Conbutton>
+      </Middiv>   
     </Container>
   )
 }

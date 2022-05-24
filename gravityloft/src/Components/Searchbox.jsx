@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Searchboxsvg from '../Assets/Images/Searchox.png'
-
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 const Container = styled.div`
     width: 100%;
     height: 671px;
@@ -9,6 +9,10 @@ const Container = styled.div`
     margin: auto;
     display: flex;
     justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 `
 const Leftdiv = styled.div`
   width: 40%;
@@ -31,7 +35,7 @@ const Lefth1 = styled.h1`
   margin-left: 20px;
   margin-bottom: 20px;
 `
-const Lefth3 = styled.div`
+const Lefth3 = styled.h3`
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -41,7 +45,7 @@ const Lefth3 = styled.div`
   margin-left: 20px;
   margin-bottom: 20px;
 `
-const Leftpara = styled.div`
+const Leftpara = styled.p`
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
@@ -62,6 +66,16 @@ const Rightdiv = styled.div`
 const Imgdiv = styled.div`
   margin-top: 12%;
 `
+const Leftgetstarted = styled.span`
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #5746EC;
+  margin-left: 20px;
+  display: flex;
+`
 const Searchbox = () => {
   return (
     <Container>
@@ -76,6 +90,10 @@ const Searchbox = () => {
           <Leftpara>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore commodi veniam dolor quo dicta aliquam beatae itaque, nulla rem explicabo. Iure in ea cum, deleniti consectetur esse labore magnam. Error!
           </Leftpara>
+          <Leftgetstarted>
+            Get started
+            <ChevronRightIcon />
+          </Leftgetstarted>
         </Leftdiv>
         <Rightdiv>
             <Imgdiv className='App'>

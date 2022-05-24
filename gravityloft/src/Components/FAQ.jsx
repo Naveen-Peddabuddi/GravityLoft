@@ -6,17 +6,53 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 // import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddSharpIcon from '@mui/icons-material/AddSharp';
+
 const Container = styled.div`
     width: 70%;
     height: 701px;
     border: 1px solid green;
     margin: auto;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; 
+    margin-bottom : 100px;
+`
+const Heading = styled.p`
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 82px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-top: 5%;
+`
+const Ques = styled.p`
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+`
+const Para = styled.p`
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #5C5F62;
 `
 const FAQ = () => {
   return (
     <>
-    <h1>FAQ</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <Heading className='App'>
+      FAQ
+      <Para>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</Para>
+    </Heading>
+    
     <Container>
         <Accordion>
         <AccordionSummary
@@ -24,39 +60,141 @@ const FAQ = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
         <AccordionSummary
           expandIcon={<AddSharpIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
+          aria-controls="panel1a-content"
+          id="panel1a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion disabled>
+      <Accordion>
         <AccordionSummary
           expandIcon={<AddSharpIcon />}
-          aria-controls="panel3a-content"
-          id="panel3a-header"
+          aria-controls="panel1a-content"
+          id="panel1a-header"
         >
-          <Typography>Disabled Accordion</Typography>
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
         </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
+          </Typography>
+        </AccordionDetails>
       </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<AddSharpIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<AddSharpIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<AddSharpIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<AddSharpIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>
+            <Ques>
+            What is Techrefic ?
+            </Ques>
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </Para>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      
     </Container>
     </>
   )

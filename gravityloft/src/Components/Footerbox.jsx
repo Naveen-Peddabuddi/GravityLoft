@@ -68,7 +68,7 @@ const Footerbox = () => {
         <ContactUs />
         <Footer>
             <Leftdiv>
-                <img src={logo} alt="" width='10%'height='30%'/>
+                <img src={logo} alt="" width='12%'height='30%'/>
                 <Footpara>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad voluptas architecto repellat sed aut inventore eveniet a expedita minima rerum praesentium, magni, vel reprehenderit illo?
                 </Footpara>
@@ -116,7 +116,7 @@ const Footerbox = () => {
             </Rightdiv>
         </Footer>
         <hr />
-        <Rightlists className='App'>
+        <Rightlists className='App' style={{paddingBottom: '50px'}}>
         Copyright © 2022 by Techrefic
         </Rightlists>
     </Container>

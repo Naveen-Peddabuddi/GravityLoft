@@ -60,16 +60,16 @@ const LeftbottomText = styled.p`
   line-height: 30px;
   font-size: 22px;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 20px;
 `
 const Formbox = styled.div`
-    width: 70%;
-    height: 98%;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    margin: auto;
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0px 10px 6px rgba(180, 212, 221, 0.2);
-    border-radius: 18px;
+  width: 70%;
+  height: 98%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: auto;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 10px 6px rgba(180, 212, 221, 0.2);
+  border-radius: 18px;
 
 `
 const Heading = styled.p`
@@ -117,10 +117,11 @@ const Getstarted = styled.button`
   line-height: 21px;
   color: #FFFFFF;
   margin-top: 25px;
+  border: none;
 `
 const Form = () => {
   return (
-    <Container>
+    <Container className='App'>
         <Leftdiv>
             <LeftTop>
               <LeftTopText>

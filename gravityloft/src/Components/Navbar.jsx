@@ -6,6 +6,8 @@ const Container = styled.div`
     height: 100px;
     /* border: 1px solid blue; */
     display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
 `
 const Rightdiv = styled.div`
   width: 50%;
